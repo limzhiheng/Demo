@@ -1,6 +1,6 @@
 <?php
 
-$con = mysqli_connect("localhost", "admin", "12345678", "my_db");
+$con = mysqli_connect("database-1.ctieyy8iwrv0.us-east-1.rds.amazonaws.com", "admin", "12345678", "my_db");
 
 ?>
 
