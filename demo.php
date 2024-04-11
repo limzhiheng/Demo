@@ -16,7 +16,7 @@ $con = mysqli_connect("database-1.ctieyy8iwrv0.us-east-1.rds.amazonaws.com", "ad
     
     <?php
 
-        $sql = "SELECT * FROM Persons";
+        $sql = "SELECT * FROM persons";
         $result = mysqli_query($con, $sql);
 
         while ($row = mysqli_fetch_array($result)) {
