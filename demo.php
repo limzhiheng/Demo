@@ -1,6 +1,6 @@
 <?php
 
-$con = mysqli_connect("localhost", "root", "", "my_db");
+$con = mysqli_connect("localhost", "admin", "12345678", "my_db");
 
 ?>
 
